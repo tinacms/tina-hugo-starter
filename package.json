@@ -1,10 +1,10 @@
 {
   "name": "tina-hugo-starter",
   "version": "1.0.0",
-  "description": "This is a vanilla hugo site intended for demonstration purposes. Follow the guide to adding TinaCMS [here](https://tina.io/guides/tinacms/non-react-based-ssg/guide/)",
+  "description": "A starter for TinaCMS with Hugo",
   "main": "index.js",
   "scripts": {
-    "dev": "tinacms dev -c \"hugo server -D -p 3003\"",
+    "dev": "tinacms dev -c \"hugo server -D\"",
     "build": "tinacms dev -c \"hugo\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
