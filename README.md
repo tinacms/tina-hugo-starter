@@ -60,6 +60,6 @@ The Hugo theme in this starter also depends on using a specific version of Hugo.
 To learn more about Tina, take a look at the following resources:
 
 - [Tina Docs](https://tina.io/docs)
-- [Getting started guide](https://tina.io/guides/tinacms/non-react-based-ssg/guide/)
+- [Getting Started Guide](https://tina.io/guides/tinacms/non-react-based-ssg/guide/)
 
-You can check out [Tina Github repository](https://github.com/tinacms/tinacms) - your feedback and contributions are welcome!
+You can check out the [Tina GitHub repository](https://github.com/tinacms/tinacms) - your feedback and contributions are welcome!
