@@ -1,7 +1,8 @@
 This is a [Tina CMS](https://tina.io/) project for Hugo.
 
-## Local 
-This starter assume that you have Hugo installed on your local. If not, reference this [guide](https://gohugo.io/getting-started/installing/).
+## Local Development
+ 
+This starter assumes that you have Hugo installed on your local machine. If not, reference [this guide](https://gohugo.io/getting-started/installing/).
 
 Install the project's dependencies:
 
@@ -22,9 +23,9 @@ Open [http://localhost:1313](http://localhost:1313) with your browser to see the
 Replace the `.env.example`, with `.env`
 
 ```
-NEXT_PUBLIC_TINA_CLIENT_ID=<get this from the project you create at app.tina.io>
+TINA_CLIENT_ID=<get this from the project you create at app.tina.io>
 TINA_TOKEN=<get this from the project you create at app.tina.io>
-NEXT_PUBLIC_TINA_BRANCH=<Specify the branch with Tina configured>
+TINA_BRANCH=<Specify the branch with Tina configured>
 ```
 
 Build the project:
@@ -38,8 +39,6 @@ yarn build
 To learn more about Tina, take a look at the following resources:
 
 - [Tina Docs](https://tina.io/docs)
-- [Getting starter guide](https://tina.io/guides/tina-cloud/starter/overview/)
+- [Getting started guide](https://tina.io/guides/tinacms/non-react-based-ssg/guide/)
 
 You can check out [Tina Github repository](https://github.com/tinacms/tinacms) - your feedback and contributions are welcome!
-
-## [Deploy on Vercel](https://tina.io/guides/tina-cloud/add-tinacms-to-existing-site/deployment/)
