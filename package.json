@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/tinalabs/vanilla-hugo#readme",
   "dependencies": {
-    "@tinacms/cli": "^1.5.0",
-    "tinacms": "^1.4.1"
+    "@tinacms/cli": "^1.5.2",
+    "tinacms": "^1.4.3"
   }
 }
