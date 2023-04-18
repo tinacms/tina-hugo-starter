@@ -3,12 +3,6 @@ import { defineConfig } from "tinacms";
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 
-console.log({
-  branch,
-  head: process.env.HEAD,
-  clientID: process.env.TINA_CLIENT_ID,
-  token: process.env.TINA_TOKEN,
-});
 export default defineConfig({
   clientId: process.env.TINA_CLIENT_ID!,
   branch:
@@ -32,24 +26,6 @@ export default defineConfig({
         name: "post",
         label: "Posts",
         path: "content/posts",
-        defaultItem() {
-          return {
-            title: "New Post",
-            date: new Date().toISOString(),
-            draft: true,
-          };
-        },
-        ui: {
-          filename: {
-            slugify: (values) => {
-              const date = new Date(values.date);
-              const title: string = values.title || "";
-              return `${date.toLocaleDateString()}-${title
-                .toLowerCase()
-                .replace(" ", "-")}`;
-            },
-          },
-        },
         fields: [
           {
             type: "string",
