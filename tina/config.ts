@@ -26,6 +26,24 @@ export default defineStaticConfig({
         name: "post",
         label: "Posts",
         path: "content/posts",
+        defaultItem() {
+          return {
+            title: "New Post",
+            date: new Date().toISOString(),
+            draft: true,
+          };
+        },
+        ui: {
+          filename: {
+            slugify: (values) => {
+              const date = new Date(values.date);
+              const title: string = values.title || "";
+              return `${date.toLocaleDateString()}-${title
+                .toLowerCase()
+                .replace(" ", "-")}`;
+            },
+          },
+        },
         fields: [
           {
             type: "string",
