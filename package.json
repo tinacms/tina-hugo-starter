@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/tinalabs/vanilla-hugo#readme",
   "dependencies": {
-    "@tinacms/cli": "^0.61.22",
+    "@tinacms/cli": "^1.5.30",
     "styled-components": "^5.3.6",
-    "tinacms": "^0.69.16"
+    "tinacms": "^1.5.21"
   }
 }
