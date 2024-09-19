@@ -11,13 +11,13 @@ This is a [Tina CMS](https://tina.io/) project for Hugo.
 Install the project's dependencies:
 
 ```
-yarn install
+pnpm install
 ```
 
 Run the project locally:
 
 ```
-yarn dev
+pnpm dev
 ```
 
 Open [http://localhost:1313](http://localhost:1313) with your browser to see the result.
@@ -35,7 +35,7 @@ TINA_BRANCH=<Specify the branch with Tina configured>
 Build the project:
 
 ```bash
-yarn build
+pnpm build
 ```
 
 ## Deploying the Site
@@ -51,9 +51,6 @@ In general, the build settings will look like so:
 ### Environment variables
 
 When setting up the Netlify/Vercel project, apply the `TINA_CLIENT_ID` & `TINA_TOKEN` environment variables from your [app.tina.io](https://app.tina.io) project. 
-
-The Hugo theme in this starter also depends on using a specific version of Hugo. Set the following environment variable as well:
-`HUGO_VERSION`: `0.92.0`
 
 ## Learn More
 
