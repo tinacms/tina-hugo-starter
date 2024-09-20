@@ -52,6 +52,8 @@ In general, the build settings will look like so:
 
 When setting up the Netlify/Vercel project, apply the `TINA_CLIENT_ID` & `TINA_TOKEN` environment variables from your [app.tina.io](https://app.tina.io) project. 
 
+The Hugo theme in this starter also depends on using a specific version of Hugo. Set the following environment variable as well: `HUGO_VERSION`: `0.134.2`
+
 ## Learn More
 
 To learn more about Tina, take a look at the following resources:
