@@ -4,7 +4,7 @@
   "description": "A starter for TinaCMS with Hugo",
   "main": "index.js",
   "scripts": {
-    "dev": "tinacms dev --verbose -c \"hugo server -D\"",
+    "dev": "tinacms dev -c \"hugo server -D\"",
     "build": "tinacms build && hugo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
