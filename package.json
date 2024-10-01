@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "tinacms dev -c \"hugo server -D\"",
     "build": "tinacms build && hugo",
+    "build": "tinacms build --local && hugo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
