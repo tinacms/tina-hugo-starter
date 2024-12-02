@@ -15,8 +15,8 @@ importers:
         specifier: ^1.6.12
         version: 1.6.12(@codemirror/language@6.0.0)(@types/react@18.3.7)(abstract-level@1.0.4)(immer@10.1.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.4)(scheduler@0.23.2)(sucrase@3.35.0)
       next-tinacms-cloudinary:
-        specifier: ^8.0.9
-        version: 8.0.9(tinacms@2.5.0(@types/react@18.3.7)(abstract-level@1.0.4)(immer@10.1.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(scheduler@0.23.2)(sucrase@3.35.0)(typescript@5.7.2))
+        specifier: ^11.0.0
+        version: 11.0.0(tinacms@2.5.0(@types/react@18.3.7)(abstract-level@1.0.4)(immer@10.1.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(scheduler@0.23.2)(sucrase@3.35.0)(typescript@5.7.2))
       tinacms:
         specifier: ^2.5.0
         version: 2.5.0(@types/react@18.3.7)(abstract-level@1.0.4)(immer@10.1.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(scheduler@0.23.2)(sucrase@3.35.0)(typescript@5.7.2)
@@ -3806,10 +3806,10 @@ packages:
     resolution: {integrity: sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==}
     engines: {node: '>= 0.6'}
 
-  next-tinacms-cloudinary@8.0.9:
-    resolution: {integrity: sha512-0kXYYyohKMYWjh3T3f2ForuUgh/OaVx4DMJ5qnN5gAQgXiANF14Hdtj9v1X3TSd+A9ZweChqJFQHb8kf8yJs9g==}
+  next-tinacms-cloudinary@11.0.0:
+    resolution: {integrity: sha512-v2cvvcirgYCnFcxtyKnB/6pb6cUbhqYUEJiagpg48rMillkES9x2SvAs05m0q1B0ZjcMrGBGPpHqVMeof46gSg==}
     peerDependencies:
-      tinacms: 2.2.9
+      tinacms: 2.5.0
 
   ngraminator@3.0.2:
     resolution: {integrity: sha512-+9RehP0EFeNxCyD53aeSFvF3OU6V0zcoZNRCXxvISl+nnlFcIZxSYdGhPaq8NDJTGlA4Ej5+NlkGopRSuuAwfw==}
@@ -9712,7 +9712,7 @@ snapshots:
 
   negotiator@0.6.3: {}
 
-  next-tinacms-cloudinary@8.0.9(tinacms@2.5.0(@types/react@18.3.7)(abstract-level@1.0.4)(immer@10.1.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(scheduler@0.23.2)(sucrase@3.35.0)(typescript@5.7.2)):
+  next-tinacms-cloudinary@11.0.0(tinacms@2.5.0(@types/react@18.3.7)(abstract-level@1.0.4)(immer@10.1.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(scheduler@0.23.2)(sucrase@3.35.0)(typescript@5.7.2)):
     dependencies:
       cloudinary: 1.41.3
       multer: 1.4.5-lts.1
