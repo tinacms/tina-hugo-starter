@@ -22,4 +22,8 @@ export default defineConfig({
   schema: {
     collections: [Post],
   },
+  cmsCallback: (cms) => {
+    cms.flags.set('branch-switcher', true)
+    return cms
+  }
 });
