@@ -25,5 +25,8 @@
     "@tinacms/cli": "^1.9.1",
     "next-tinacms-cloudinary": "^12.0.4",
     "tinacms": "^2.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9"
   }
 }
