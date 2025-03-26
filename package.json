@@ -23,7 +23,7 @@
   "dependencies": {
     "@tinacms/auth": "^1.0.11",
     "@tinacms/cli": "^1.9.3",
-    "next-tinacms-cloudinary": "^12.0.4",
+    "next-tinacms-cloudinary": "^13.0.3",
     "tinacms": "^2.7.3"
   }
 }
