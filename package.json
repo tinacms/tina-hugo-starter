@@ -24,6 +24,8 @@
     "@tinacms/auth": "^1.0.12",
     "@tinacms/cli": "^1.9.7",
     "next-tinacms-cloudinary": "^13.0.7",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "tinacms": "^2.7.7"
   }
 }
