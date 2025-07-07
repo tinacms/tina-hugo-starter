@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/tinalabs/vanilla-hugo#readme",
   "dependencies": {
-    "@tinacms/auth": "^1.0.12",
-    "@tinacms/cli": "^1.9.9",
-    "next-tinacms-cloudinary": "^13.0.9",
+    "@tinacms/auth": "^1.1.0",
+    "@tinacms/cli": "^1.10.0",
+    "next-tinacms-cloudinary": "^13.0.10",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "tinacms": "^2.7.9"
+    "tinacms": "^2.8.0"
   }
 }
