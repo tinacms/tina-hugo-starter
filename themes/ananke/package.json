@@ -17,7 +17,7 @@
   "description": "Theme Ananke",
   "devDependencies": {
     "auto-changelog": "^2.5.0",
-    "cssnano": "^7.1.1",
+    "cssnano": "^7.1.2",
     "postcss-cli": "^11.0.1",
     "postcss-cssnext": "^3.1.1",
     "tachyons": "^4.12.0"
