@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tinacms dev -c \"hugo server -D\"",
     "build": "tinacms build && hugo",
-    "build-local": "tinacms build --local --skip-indexing --skip-cloud-checks && hugo",
+    "build-local": "tinacms build --content=local --skip-cloud-checks -c \"hugo\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,10 +25,10 @@
   },
   "dependencies": {
     "@tinacms/auth": "^1.1.0",
-    "@tinacms/cli": "^2.0.1",
+    "@tinacms/cli": "^2.3.1",
     "next-tinacms-cloudinary": "^17.0.1",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "tinacms": "^3.0.1"
+    "tinacms": "^3.8.1"
   }
 }
