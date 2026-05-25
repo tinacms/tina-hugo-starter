@@ -26,7 +26,7 @@
   "dependencies": {
     "@tinacms/auth": "^1.1.0",
     "@tinacms/cli": "^2.3.1",
-    "next-tinacms-cloudinary": "^17.0.1",
+    "next-tinacms-cloudinary": "^25.0.1",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "tinacms": "^3.8.1"
