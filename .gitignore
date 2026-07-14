@@ -2,4 +2,9 @@ node_modules
 .env
 public
 
-*-lock.*
+# Package Manager Lock Files (templates only — remove if your project uses one)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+bun.lockb
+deno.lock
