@@ -4,7 +4,7 @@ This is a [Tina CMS](https://tina.io/) project for Hugo.
 
 - Fork this repo
 - Clone the fork your local machine.
-- This starter assumes that you have Hugo installed on your local machine. If not, reference [this guide](https://gohugo.io/getting-started/installing/).
+- This starter assumes that you have Hugo (extended) installed on your local machine, at the `HUGO_VERSION` pinned in [`vercel.json`](vercel.json). If not, reference [this guide](https://gohugo.io/getting-started/installing/).
 
 ## Local Development
 
@@ -52,7 +52,7 @@ In general, the build settings will look like so:
 
 When setting up the Netlify/Vercel project, apply the `TINA_CLIENT_ID` & `TINA_TOKEN` environment variables from your [app.tina.io](https://app.tina.io) project. 
 
-The Hugo theme in this starter also depends on using a specific version of Hugo. Set the following environment variable as well: `HUGO_VERSION`: `0.134.2`
+The Hugo theme in this starter also depends on using a specific version of Hugo, pinned as `HUGO_VERSION` in [`vercel.json`](vercel.json). On Vercel, that file sets it for you and overrides any `HUGO_VERSION` in your Vercel project settings, so change it there. On other hosts, set the `HUGO_VERSION` environment variable to the same value yourself. To check which Hugo a build used, look for the line starting with `hugo v` in the build log.
 
 ## Learn More
 
